@@ -52,14 +52,17 @@ class CreateEmployeeComponent extends Component {
     
     changeFirstNameHandler= (event) => {
         this.setState({firstName: event.target.value});
+        console.log(this.state.firstName);
     }
 
     changeLastNameHandler= (event) => {
         this.setState({lastName: event.target.value});
+        console.log(this.state.lastName)
     }
 
     changeEmailHandler= (event) => {
         this.setState({emailId: event.target.value});
+        console.log(this.state.emailId)
     }
 
     cancel(){

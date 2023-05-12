@@ -18,7 +18,7 @@ class ListEmployeeComponent extends Component {
             this.setState({employees: this.state.employees.filter(employee => employee.id !== id)});
         });
     }
-    viewEmployee(id){0
+    viewEmployee(id){
         this.props.history.push(`/view-employee/${id}`);
     }
     editEmployee(id){
